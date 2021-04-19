@@ -1,0 +1,196 @@
+#page-login {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page-login-content {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+#page-login-content .grid-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.login-form {
+    margin-top: 3rem;
+    width: 350px;
+}
+
+.login-form input {
+    padding: 3rem 2rem 1rem 2rem;
+    width: 100%;
+    outline: 0;
+    border: 1px solid var(--color-line-in-white);
+
+}
+
+.input:focus-within::after {
+    width: calc(100% - 3.2rem);
+    width: 2px;
+    content: '';
+    background: var(--color-primary-light);
+    position: absolute;
+    left: 0;
+    top: 1.2rem;
+    bottom: 1.2rem;
+}
+
+.input input {
+    border-radius: .8rem;
+    margin: .2rem 0;
+}
+
+div.input {
+    position: relative;
+}
+
+.login-form h1,
+.login-form p {
+    margin-bottom: 3rem;
+}
+
+.login-form input ~ label {
+    position: absolute;
+    top: 16px;
+    left: 0;
+    padding: 0 2rem;
+    color: var(--color-text-base) ;
+    transition: .4s;
+}
+
+.login-form input ~ span {
+    position: absolute;
+    top: 16px;
+    right: 0;
+    padding: 0 2rem;
+    color: var(--color-text-base) ;
+    transition: .4s;
+}
+
+.login-form input:focus ~ label,
+.login-form input:valid ~ label {
+    transform: translateY(-8px);
+    font-size: 1.2rem;
+}
+.acesses{
+    padding: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.acesses .label-lembrar {
+    position: relative;
+    top: 0;
+    margin-left: -4rem;
+    color: var(--color-text-base);
+}
+.acesses a {
+    text-decoration: inherit;
+    color: var(--color-text-base);
+}
+.acesses a>p {
+    margin: 0;
+}
+.acesses input[type="checkbox" i] {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #6cc0e5;
+    opacity: .6;
+    -webkit-transition: all .12s, border-color .08s;
+    transition: all .12s, border-color .08s;
+}
+
+.acesses input[type="checkbox" i]:checked {
+    background-color: red;
+    color: red;
+    opacity: 1;
+}
+
+.button-login {
+    margin-top: 2rem;
+    padding: 2rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-button-login);
+    color: var(--color-text-title);
+    cursor: pointer;
+    border: none;
+    border-radius: .8rem; 
+    outline: none;
+}
+
+.button-cadastro {
+    margin-top: 2rem;
+    padding: 2rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-secundary);
+    color: var(--color-title-in-primary);
+    cursor: pointer;
+    border: none;
+    border-radius: .8rem; 
+    outline: none;
+}
+
+.cadastre-se {
+    padding-top: 3rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cadastre-se a {
+    color: var(--color-primary);
+}
+
+.grid-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-bar-container {
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+}
+
+@media (min-width: 1100px) {
+    #page-login-content {
+        display: grid;
+        
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "header login";
+    }
+
+
+    #page-login-content  .grid-header{
+        position: inherit;
+        grid-area: 'header';
+    }
+
+    .grid-login {
+        display: flex;
+        /* flex-direction: ce; */
+        align-items: center;
+        justify-content: center;
+        grid-area: 'login';
+    }
+
+}
