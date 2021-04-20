@@ -55,9 +55,6 @@
 ```ps
 # Clone the repository using git
 $ git clone https://github.com/WelliWillers/nlw2.git
-
-# Access the project folder
-$ cd proffy
 ```
 
 #### Requirements
