@@ -47,12 +47,6 @@
         * [Server](#Server)
         * [Mobile](#Mobile)
     * [Running](#Running)
-* [Issues](#Issues-)
-    * [Report](#Report)
-    * ~~Trouble Shooting~~
-* [Contributing](#Contributing-)
-* [Todo](#Todo-)
-* [License](#License-)
 
 ### Getting Started 🚀
 
