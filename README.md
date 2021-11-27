@@ -1,68 +1,71 @@
-<!-- 
-    Thank you for reading this
-    If you´re having any problem with this project please contact in the issues session
--->
-
-<!-- VARS -->
-
-[license-badge]: https://img.shields.io/github/license/WelliWillers/proffy?color=%238257E5
-[star-badge]: https://img.shields.io/github/stars/WelliWillers/proffy?color=8257E5&logo=github
-[last-commit-badge]: https://img.shields.io/github/last-commit/pmqueiroz/proffy?color=%238257E5
-[codacy-badge]: https://app.codacy.com/project/badge/Grade/b2d32fa731984f3e9c3eaa814861c9db
-[nlw-badge]: https://img.shields.io/badge/NLW-done-%21bcc1b&?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEVHcExxWsF0XMJzXMJxWcFsUsD///9jRrzY0u6Xh9Gsn9n39fyMecy0qd2bjNJWBT0WAAAABHRSTlMA2Do606wF2QAAAGlJREFUGJVdj1cWwCAIBLEsRU3uf9xobDH8+GZwUYi8i6ucJwrxKE+7D0G9Q4vlYqtmCSjndr4CgCgzlyFgfKfKCVO0LrPKjmiqMxGXkJwNnXskqWG+1oSM+BSwD8f29YLNjvx/OQrn+g99oQSoNmt3PgAAAABJRU5ErkJggg==
-[proffy-apk-badge]: https://img.shields.io/badge/Apk-download-important?logo=android&color=%238257E5
-[proffy-apk-url]: https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/%40pmqueiroz/mobile-16c4dd082b2e4fc892b33b58a3a9e529-signed.apk
-[license-url]: https://github.com/WelliWillers/proffy/blob/master/LICENSE
-[issues-url]: https://github.com/WelliWillers/proffy/issues/
-[node-url]: https://nodejs.org/en
-[yarn-url]: https://classic.yarnpkg.com/
-[npm-url]:  https://www.npmjs.com/
-[expo-url]: https://expo.io/
-
-<!-- VARS -->
-
-<br>
-<p align="center">
-    Online teaching platform made with React.js and React Native using Typescript during the<a src="https://nextlevelweek.com"> NLW (Next Level Week) #02</a>🚀
-</p>
-
-
-
-<div align="center">  
-    
-[![License][license-badge]][license-url]
-![Git Stars][star-badge]
-![NLW Stats][nlw-badge]
-![Codacy Quality][codacy-badge]
-
-
+<div id="sobre"> 
+  <h1>:purple_circle: Projeto Proffy</h1>
+  
+  <p>
+    Projeto realizado durante a 2ª edição do NLW apresentado pela Rocketseat. 
+    O projeto consiste em uma plataforma, onde o usuário acessa encontrar uma turma ou para ser uma professor onde alunos podem encontrar e entrar em contato via Whatsapp.
+  </p>
+  
+  <img src="https://welliwillers.github.io/portfolio/img/capaproffy.png" alt="Imagem capa proffy">
 </div>
 
 
-### Content
-* [Getting Started](#Getting-Started-)
-    * [Cloning](#Cloning)
-    * [Requirements](#Requirements)
-        * [Web](#Web)
-        * [Server](#Server)
-        * [Mobile](#Mobile)
-    * [Running](#Running)
+<div id="tabela-de-conteudo"> 
+  <h1>:purple_circle: Tabela de conteúdos</h1>
+  
+  <p align="center">
+    <a href="#sobre">Sobre</a> •
+    <a href="#tabela-de-conteudo"> Tabela de conteúdo</a> • 
+    <a href="#tecnologias-usadas"> Tecnologias usadas</a> • 
+    <a href="#features"> Features</a> • 
+    <a href="#requisitos"> Requisitos</a> • 
+    <a href="#instalacao"> Instalação</a> • 
+   <a href="#autor"> Autor</a>
+  </p>
+</div>
+
+
+<div id="tecnologias-usadas"> 
+  <h1> :purple_circle: Tecnologias usadas</h1>
+ </div>
+ 
+- [ReactJS](https://reactjs.org/) + [Typescript](https://www.typescriptlang.org/)
+- [react-router-dom](https://reactrouter.com/web/guides/quick-start)
+* [Node.js](https://nodejs.org/en/)
+* [Yarn](https://classic.yarnpkg.com/lang/en/) or [npm](https://www.npmjs.com/)
+* [Expo](https://expo.dev/)
+* [Axios](https://axios-http.com/)
+
+
+<div id="features"> 
+  <h1>:purple_circle: Features</h1>
+</div>
+
+- [x] 
+
+
+<div id="requisitos"> 
+  <h1>:purple_circle: Requisitos</h1>
+</div>
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [Visual Studio Code](https://code.visualstudio.com/)
+
+<div id="instalacao"> 
+  <h1>:purple_circle: Instalação</h1>
+</div>
 
 ### Getting Started 🚀
 
-#### Cloning
+#### :purple_circle: Cloning
 
 ```ps
 # Clone the repository using git
 $ git clone https://github.com/WelliWillers/nlw2.git
 ```
 
-#### Requirements
-* [Node.js][node-url]
-* [Yarn][yarn-url] or [npm][npm-url]
-* [Expo][expo-url]
-
-##### Web
+##### :purple_circle: Web
 
 This project use third party dependencies that need to be installed, use that command to install all needed dependencies
 
@@ -89,7 +92,7 @@ $ yarn knex:migrate
 ```
 >The above command is a custom command made on `package.json` file. (Ln 8, Col 5)
 
-##### Server 
+##### :purple_circle: Server 
 
 This project use third party dependencies that need to be installed, use that command to install all needed dependencies
 
@@ -111,7 +114,7 @@ $ yarn add ts-node-dev -D
 $ yarn add knex
 ```
 
-##### Mobile
+##### :purple_circle: Mobile
 
 This projects use third party dependecies and fonts that need to be installed in development, use that command to install all needed dependencies and fonts
 
@@ -140,7 +143,7 @@ $ yarn add axios
 $ expo install @react-native-community/async-storage
 ```
 
-#### Running
+#### :purple_circle: Running
 
 To start the Web Server run the command
 
@@ -172,4 +175,21 @@ $ cd mobile
 $ yarn start
 ```
 
+<div id="autor"> 
+  <h1>:purple_circle: Autor</h1>
+</div>
 
+<a href="https://github.com/WelliWillers">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/40187751?s=60&v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Wellington Willers</b></sub></a> 🚀
+
+👋🏽 Entre em contato!
+
+[![Linkedin Badge](https://img.shields.io/badge/-@Wellington-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/wellington-willers-24302b199/)](https://www.linkedin.com/in/wellington-willers-24302b199/) 
+[![Gmail Badge](https://img.shields.io/badge/-tgmarinho@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:wellington.willer@gmail.com)](mailto:wellington.willer@gmail.com)
+
+<div id="licenca"> 
+  <h1>:purple_circle: Licença</h1>
+</div>
+Veja a<a href="https://github.com/WelliWillers/letmeask/blob/main/LICENSE"> LICENSE</a>
